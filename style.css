@@ -1,26 +1,69 @@
-html { 
+html{ 
     background: linear-gradient(230deg, #6985AF 0%, #6B7585 100%);
-    height: 100%;
     font-family: 'JetBrains Mono';
+    width: 100%;
 }
 
-.navBar {
-    padding-left: 22px;
-    padding-top: 8px;
-    text-align: center;
+.nav{
+    color: #D9D9D9;
+    font-size:larger;
+    width: 100%;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 10px 18px;
+    box-sizing: border-box; /*prevents items from going outside of the div*/
 }
-.navBar a { 
-    float:left;
-    color: blanchedalmond;  
-    padding-right: 20px;
-    font-size: larger;
+.nav a:hover{
+    border-bottom: 2px solid ;
 }
-.navBar b { 
-    float:left;
-    color: blanchedalmond;  
-    padding-right: 20px;
+.nav b{
+    float: right;
     font-size: x-large;
 }
+span div{
+    background-color: white;
+    color: #D9D9D9;
+    height: 100%;
+    width: 30%;
+}
+
+.intro{
+    background-color: #D9D9D9;
+    color: black;
+    width: 100%;
+    height: 15.5em;
+    text-align: center;
+    border: .25em solid black;
+    box-sizing: border-box;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    color: black;
+    width: 100%;
+    height: 4em;
+    padding-left: 1em;
+    position: relative;
+    margin-top: 1em;
+    border: .25em solid black;
+    box-sizing: border-box;
+}
+.brockport{
+    background-color: #D9D9D9;
+    color: black;
+    width: 100%;
+    height: 12em;
+    position: relative;
+    text-align: center;
+    border: .25em solid black;
+    box-sizing: border-box;
+    margin-top: 1em;
+}
+
+
+
 
 
 
